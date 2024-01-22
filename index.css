@@ -4,28 +4,83 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-up{
+.container{
+  width: 80%;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align align-items: center;
+  flex-wrap: wrap;
 }
 
-.container-up img{
-  height: 925px;
-  width: 640px;
+img{
+  width: 100%;
+  
 }
 
-.container-down{
+.image{
+  height: auto;
   display: flex;
-  justify-content: center;
-  align align-items: center;
+
 }
 
-.container-down img{
-  height: 925px;
-  width: 640px;
+.card{
+  margin-top: 20px;
+  position: relative;
+  width: 33%;
+  padding: 0 5px 0 5px;
+}
+
+.lable{
+  font-size: 0.8rem;
+  color: lightgrey;
+
+}
+
+.actual-price{
+  color: red;
+
+}
+
+.previous-price{
+  color: grey;
+  text-decoration: line-through;
+}
+
+.like{
+  padding: 5px 10px;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  font-size: 1.5rem;
+}
+
+.discount{
+  background-color: red;
+  padding: 5px 10px;
+  margin-right: 3px;
+}
+
+.tags{
+  position: absolute;
+  bottom: 130px;
+  color: white;
+  display: flex;
+
+}
+
+.sus{
+  background-color: green;
+  padding: 5px 10px;
+}
+
+.hovered{
+  display: none;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+.card:hover .hovered{
+  display: block;
+  padding: 0 5px 0 5px;
 }
