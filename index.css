@@ -12,10 +12,20 @@ body{
   display: flex;
   justify-content: center;
   align align-items: center;
-  pa
 }
 
 .container-up img{
+  height: 925px;
+  width: 640px;
+}
+
+.container-down{
+  display: flex;
+  justify-content: center;
+  align align-items: center;
+}
+
+.container-down img{
   height: 925px;
   width: 640px;
 }
