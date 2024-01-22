@@ -84,3 +84,30 @@ img{
   display: block;
   padding: 0 5px 0 5px;
 }
+
+/* Footer */
+
+footer{
+  padding-top: 20px;
+  height: 100px;
+  color: white;
+  background-color: #1a1a1a;
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
+.bottom{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+
+}
+/* left text */
+.credits span{
+  margin-right: 5px;
+}
+/* right text */
+.social span{
+  margin-right: 5px;
+}
