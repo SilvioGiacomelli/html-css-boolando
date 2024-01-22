@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-up{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.product img{
+  height: 770px;
+  width: 533px;
+}
+
+.container-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;  
+}
+
+.product:hover .hover1{
+	display: block;
+}
