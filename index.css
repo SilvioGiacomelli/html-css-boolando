@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,24 +9,13 @@ body{
 }
 
 .container-up{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-}
-
-.product img{
-  height: 770px;
-  width: 533px;
-}
-
-.container-down{
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 20px;  
+  align align-items: center;
+  pa
 }
 
-.product:hover .hover1{
-	display: block;
+.container-up img{
+  height: 925px;
+  width: 640px;
 }
